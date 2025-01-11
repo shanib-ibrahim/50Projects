@@ -1,2 +1,1 @@
-# 50Projects
-50 Projects - HTML/CSS and JavaScript
+# 50 Projects - HTML/CSS and JavaScript

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem
+}
+.steps{
+    display: flex;
+    align-items: center;
+}
+.step{
+    border-radius: 50%;
+    border:2px solid #E0E0E0;
+    padding:4px 8px;
+    font-size: 14px;
+    color: #9FABC7;    
+}
+.step.active{
+    border-width: 3px;
+    border-color: #3498DB;
+}
+.btn button{
+    color: #fff;
+    padding: 6px 24px;
+    background-color: #3498DB;
+    border: none;
+    border-radius: 5px;
+}
+.stepper-line{
+    width:5rem;
+    height: 3px;
+    background-color:#E0E0E0;    
+}
