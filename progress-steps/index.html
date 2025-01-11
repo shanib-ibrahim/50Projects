@@ -7,22 +7,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <section class="container">
-        <div class="steps">
-          <div class="step active">1</div>
-          <div class="stepper-line"></div>
-          <div class="step">2</div>
-          <div class="stepper-line"></div>
-          <div class="step">3</div>
-          <div class="stepper-line"></div>
-          <div class="step">4</div>
-        </div>
-        <div class="btn">
-          <button>Prev</button>
-          <button>Next</button>
-        </div>
-      </section>
+    <div class="container">
+      <div class="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="circle active">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+        <div class="circle">4</div>
+      </div>
+
+      <button class="btn" id="prev" disabled>Prev</button>
+      <button class="btn" id="next">Next</button>
+    </div>
     </main>
     <script src="script.js"></script>
   </body>
