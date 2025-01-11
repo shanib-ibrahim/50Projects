@@ -15,7 +15,6 @@ body{
 .card-container{
     display: flex;  
     width: 90vw;  
-    gap: 20px;
 }
 .card{
     position: relative;
@@ -26,6 +25,8 @@ body{
     height: 80vh;
     border-radius: 50px;
     flex:0.5;
+    margin: 10px;
+    cursor: pointer;
     transition: all 700ms ease-in;
 }
 .card:nth-child(1){
@@ -51,8 +52,21 @@ body{
     bottom: 20px;
     font-size: 24px;
     left: 20px;
-    display: none;
+    margin: 0;
+    opacity: 0;
 }
 .card.active h3{
-    display: block;
+    opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
 }
+
+@media (max-width: 480px) {
+    .card-container {
+      width: 100vw;
+    }
+  
+    .card:nth-of-type(4),
+    .card:nth-of-type(5) {
+      display: none;
+    }
+  }
