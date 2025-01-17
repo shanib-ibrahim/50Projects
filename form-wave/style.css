@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-items: center;
+  height: 100dvh;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  background-color: #4682b4;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #2a4e6c;
+  color: #fff;
+  padding: 20px 40px;
+}
