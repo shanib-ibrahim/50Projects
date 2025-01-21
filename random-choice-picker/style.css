@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -5,10 +6,13 @@ body {
   display: grid;
   place-items: center;
   height: 100dvh;
+  overflow: hidden;
+  margin: 0;
   background-color: #2b88f0;
+  font-family: "Muli", sans-serif;
 }
 .container {
-  text-align: center;
+  width: 500px;
 }
 h3 {
   color: #fff;
@@ -25,6 +29,11 @@ textarea {
   margin: 0 0 20px;
   font-size: 16px;
 }
+
+textarea:focus {
+  outline: none;
+}
+
 .tag {
   background-color: #f0932b;
   color: #fff;
@@ -33,4 +42,8 @@ textarea {
   margin: 0 5px 10px 0;
   font-size: 14px;
   display: inline-block;
+}
+
+.tag.highlight {
+  background-color: #273c75;
 }
