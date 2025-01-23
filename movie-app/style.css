@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #22254b;
+  margin: 0;
+  overflow: hidden;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: #373b69;
+}
