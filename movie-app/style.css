@@ -1,3 +1,6 @@
+:root {
+  --primary-color: #22254b;
+}
 * {
   box-sizing: border-box;
 }
@@ -11,4 +14,13 @@ nav {
   justify-content: flex-end;
   padding: 1rem;
   background-color: #373b69;
+}
+nav input {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
 }
