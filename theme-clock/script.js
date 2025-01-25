@@ -1,7 +1,12 @@
-const darkModeBtn = document.getElementById("drk-mode-btn");
+const toggle = document.querySelector(".toggle");
 
-darkModeBtn.addEventListener("click", () => {
-  document.body.style.background = "#111111";
-  darkModeBtn.style.background = "#fff";
-  darkModeBtn.style.color = "#111111";
+toggle.addEventListener("click", (e) => {
+  const html = document.querySelector("html");
+  if (html.classList.contains("dark")) {
+    html.classList.remove("dark");
+    e.target.innerHTML = "Dark mode";
+  } else {
+    html.classList.add("dark");
+    e.target.innerHTML = "Light mode";
+  }
 });
