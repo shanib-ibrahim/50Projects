@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-items: center;
+  height: 100dvh;
+}
+.dark-mode-btn {
+  background-color: #111111;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
