@@ -3,4 +3,19 @@
 }
 body {
   background-color: #4682b4;
+  display: grid;
+  place-items: center;
+  height: 100dvh;
+  overflow: hidden;
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+.box {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border: solid 3px black;
+  background: white;
 }
