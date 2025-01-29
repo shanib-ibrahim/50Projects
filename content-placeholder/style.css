@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  overflow: hidden;
+  background-color: #ecf0f1;
+}
