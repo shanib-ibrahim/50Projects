@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #d1876e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+  height: 100dvh;
+}
+.speed {
+  position: absolute;
+  bottom: 10px;
+}
